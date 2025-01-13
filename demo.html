@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Демо - Дом для хвостиков</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .linear-gradient {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Линейный градиент */
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .radial-gradient {
+            background: radial-gradient(circle, #ff7e5f, #feb47b); /* Радиальный градиент */
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .conic-gradient {
+            background: conic-gradient(#ff7e5f, #feb47b); /* Конический градиент */
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .transform-2d-1 {
+            background-color: #663366;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            transition: transform 0.3s ease; /* Плавное изменение преобразования */
+        }
+
+        .transform-2d-1:hover {
+            transform: scale(1.1) rotate(10deg); /* Увеличение и поворот */
+        }
+
+        .transform-2d-2 {
+            background-color: #663366;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            transition: transform 0.3s ease; /* Плавное изменение преобразования */
+        }
+
+        .transform-2d-2:hover {
+            transform: skew(10deg, 10deg); /* Наклон */
+        }
+
+        .transform-3d-1 {
+            background-color: #663366;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            transition: transform 0.3s ease; /* Плавное изменение преобразования */
+            perspective: 1000px; /* Перспектива */
+        }
+
+        .transform-3d-1:hover {
+            transform: rotateY(45deg); /* 3D поворот */
+        }
+
+        .transform-3d-2 {
+            background-color: #663366;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            transition: transform 0.3s ease; /* Плавное изменение преобразования */
+            perspective: 1000px; /* Перспектива */
+        }
+
+        .transform-3d-2:hover {
+            transform: rotateX(45deg); /* 3D поворот */
+        }
+
+        .transition-1 {
+            background-color: #663366;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            transition: background-color 0.3s ease, color 0.3s ease; /* Плавное изменение фона и цвета текста */
+        }
+
+        .transition-1:hover {
+            background-color: #996699; /* Изменение цвета фона */
+            color: #ffffff; /* Изменение цвета текста */
+        }
+
+        .transition-2 {
+            background-color: #663366;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавное изменение преобразования и тени */
+        }
+
+        .transition-2:hover {
+            transform: scale(1.1); /* Увеличение */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Тень */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Демо - Дом для хвостиков</h1>
+    </header>
+    <main>
+        <section class="linear-gradient">
+            <h2>Линейный градиент</h2>
+        </section>
+        <section class="radial-gradient">
+            <h2>Радиальный градиент</h2>
+        </section>
+        <section class="conic-gradient">
+            <h2>Конический градиент</h2>
+        </section>
+        <section class="transform-2d-1">
+            <h2>2D преобразование: масштабирование и поворот</h2>
+        </section>
+        <section class="transform-2d-2">
+            <h2>2D преобразование: наклон</h2>
+        </section>
+        <section class="transform-3d-1">
+            <h2>3D преобразование: поворот по оси Y</h2>
+        </section>
+        <section class="transform-3d-2">
+            <h2>3D преобразование: поворот по оси X</h2>
+        </section>
+        <section class="transition-1">
+            <h2>Переход: изменение цвета фона и текста</h2>
+        </section>
+        <section class="transition-2">
+            <h2>Переход: масштабирование и тень</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Дом для хвостиков. Все права защищены.</p>
+    </footer>
+</body>
+</html>
